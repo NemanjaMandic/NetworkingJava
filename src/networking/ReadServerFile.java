@@ -53,6 +53,7 @@ public class ReadServerFile extends JFrame{
             enterField.setText(location);
         }catch(IOException ex){
             JOptionPane.showMessageDialog(this, "Error: "+ex.getMessage());
+           // JOptionPane.showInternalMessageDialog(rootPane, ex.getMessage());
         }
     }
     public static void main(String[] args){
